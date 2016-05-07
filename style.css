@@ -31,9 +31,25 @@ body{
 	line-height:15px;
 }
 
+table.options {
+	margin-top:10px;
+}
+
+.options input {
+	margin:0px 2px 0px 2px;
+}
+
 ul{
 	padding-left: 0;
 	margin-top: 0;
+}
+
+ul span {
+	line-height:40px;
+	font-size:25px;
+	color:#fff;
+	font-family:Copperplate Gothic Light;	
+	text-shadow: 1px 1px 1px #000;
 }
 
 ul li{ /* affichage de chaque titre */
@@ -42,17 +58,19 @@ ul li{ /* affichage de chaque titre */
 	min-height: 30px;
 	background:#cecece;
 	line-height:30px;
+	opacity:0.8;
 }
 
 ul li:hover{
-	background: #898989;
+	opacity:1;
 }
 
 fieldset{
-	height: 120px;
+	height: 100px;
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
+	border-radius:3px;
 }
 
 form{
@@ -95,8 +113,7 @@ a:hover{
 
 #formList{
 	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
+	margin:0px auto 10px auto;
 	text-align: center;
 	background: #aaa;
 	border-radius: 5px;
