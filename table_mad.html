@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="script.js"></script>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script> 
+		<title>Tableau MAD - Nippon Syndrom</title>
+	</head>
+
+	<header>
+		
+		<center>
+			<h1>Tableau <font color="#d96c46">M</font><font color="#a5229c">A</font><font color="#4568b2">D</font></h1>
+				<a name="top">
+				<img id="head_banner" src="header.png">
+		</center>
+	</header>
+
+	<body onload="init()">
+
+		<div id="toolbar">
+			<a href="#top">Top</a>
+			&nbsp;|&nbsp;
+			<a href="#bottom">Bottom</a>
+		</div>
+		<div id="wrapper">
+			<span id="update">Mis à jour le <jour> <mois> <année></span>
+			<div id="selector_wrapper">
+				<form action="#" onclick="return select();">
+					<center>
+						<fieldset>
+							<legend>
+								<font color="#d96c46">Mangas</font>
+							</legend>
+							<p>
+								<input type="radio" name="option" value="mangaShounen" checked/> <label for="mangaShounen">Shounen</label>
+								
+								<input type="radio" name="option" value="mangaShoujo" /> <label for="mangaShoujo">Shoujo</label>
+								<br />
+								<input type="radio" name="option" value="mangaSeinen" /> <label for="mangaSeinen">Seinen</label>
+								
+								<input type="radio" name="option" value="mangaJosei" /> <label for="mangaJosei">Josei</label>
+								<br />
+								<input type="radio" name="option" value="mangaYaoi" /> <label for="mangaYaoi">Yaoi</label>
+								
+								<input type="radio" name="option" value="mangaYuri" /> <label for="mangaYuri">Yuri</label>
+								<br />
+							</p>
+						</fieldset>
+
+						<fieldset>
+							<legend>
+								<font color="#a5229c">Animes</font>
+							</legend>
+							<p>
+								<input type="radio" name="option" value="animeShounen"/> <label for="animeShounen">Shounen</label>
+								
+								<input type="radio" name="option" value="animeShoujo" /> <label for="animeShoujo">Shoujo</label>
+								<br />
+								<input type="radio" name="option" value="animeSeinen" /> <label for="animeSeinen">Seinen</label>
+								
+								<input type="radio" name="option" value="animeJosei" /> <label for="animeJosei">Josei</label>
+								<br />
+								<input type="radio" name="option" value="animeYaoi" /> <label for="animeYaoi">Yaoi</label>
+								
+								<input type="radio" name="option" value="animeYuri" /> <label for="animeYuri">Yuri</label>
+								<br />
+								<input type="radio" name="option" value="film" /> <label for="film">Film</label>
+								<input type="radio" name="option" value="oav" /> <label for="oav">OAV</label>
+							</p>
+						</fieldset>
+
+						<fieldset>
+							<legend>
+								<font color="#4568b2">Drama</font>
+							</legend>
+							<p>
+								<input type="radio" name="option" value="film" /> <label for="film">Film</label>
+								<br />
+								<input type="radio" name="option" value="drama" /> <label for="drama">Série</label>
+								<br />
+								<br />
+							</p>
+						</fieldset>
+					</center>
+				</form>
+			</div>
+
+			<div class="ancres">
+				<a href="#A">A</a>
+				<a href="#B">B</a>
+				<a href="#C">C</a>
+				<a href="#D">D</a>
+				<a href="#E">E</a>
+				<a href="#F">F</a>
+				<a href="#G">G</a>
+				<a href="#H">H</a>
+				<a href="#I">I</a>
+				<a href="#J">J</a>
+				<a href="#K">K</a>
+				<a href="#L">L</a>
+				<a href="#M">M</a>
+				<a href="#N">N</a>
+				<a href="#O">O</a>
+				<a href="#P">P</a>
+				<a href="#Q">Q</a>
+				<a href="#R">R</a>
+				<a href="#S">S</a>
+				<a href="#T">T</a>
+				<a href="#U">U</a>
+				<a href="#V">V</a>
+				<a href="#W">W</a>
+				<a href="#X">X</a>
+				<a href="#Y">Y</a>
+				<a href="#Z">Z</a>
+			</div>
+
+			<div id="formList">
+			</div>
+			<a name="bottom"></a>
+		</div>
+	</body>
+</html>

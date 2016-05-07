@@ -1,0 +1,120 @@
+@font-face {
+	font-family: Copperplate Gothic Light;
+	src: url("https://dl.dropboxusercontent.com/u/211438478/CopperplateGothicLight.ttf");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Agency FB";
+	font-style: normal;
+	src: url("https://dl.dropboxusercontent.com/u/211438478/AgencyFB.ttf");
+}
+
+header img{
+	border-radius:10px;
+}
+
+header h1 {
+	font-family:Copperplate Gothic Light;	
+}
+
+body{
+	background: #cecece;
+	color: #383838;
+}
+
+#update {
+	font-family: "Agency FB";
+	float:right;
+	margin:5px;
+	font-size:15px;
+	line-height:15px;
+}
+
+ul{
+	padding-left: 0;
+	margin-top: 0;
+}
+
+ul li{ /* affichage de chaque titre */
+	display: block;
+	width: 100%;
+	min-height: 30px;
+	background:#cecece;
+	line-height:30px;
+}
+
+ul li:hover{
+	background: #898989;
+}
+
+fieldset{
+	height: 120px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+
+form{
+	margin-left: auto;
+	padding: 10px 5px;
+}
+
+a{
+	color: #383838;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+#toolbar{
+	background: #161616;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	box-shadow: 5px #000;
+}
+
+#wrapper{
+	display: block;
+	width: 75%;
+	margin: 30px auto 30px auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px 1px #58b2e3;
+	border:1px solid #cecece;
+}
+
+#selector_wrapper{
+	width: 80%;
+	margin: 30px auto 10px auto;
+}
+
+#formList{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: #aaa;
+	border-radius: 5px;
+	border:1px solid #aaa;
+}
+
+.ancres{
+	width: 100%;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+	margin-bottom:15px;
+}
+
+.ancres a {
+	color:#fff;
+}
+
+.ancres a:hover {
+	color:#d05e75;
+	text-shadow: 0px 0px 1px #3ee8c2;
+}
