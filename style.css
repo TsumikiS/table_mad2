@@ -94,11 +94,12 @@ a:hover{
 	background: #cecece;
 	border:1px solid #c1c1c1;
 	position: fixed;
-	top: 0px;
+	top: 15px;
 	right: 0px;
 	padding: 5px 10px;
 	border-bottom-left-radius: 4px;
-	box-shadow: 0px 0px 15px #666;
+	border-top-left-radius: 4px;
+	box-shadow: 0px 0px 2px 1px #666;
 }
 
 #wrapper{
@@ -125,18 +126,21 @@ a:hover{
 	border:1px solid #aaa;
 }
 
-.ancres{
-	width: 100%;
+.anchors{
+	width: 80%;
 	text-align: center;
 	text-shadow: 1px 1px 1px #000;
-	margin-bottom:15px;
+	margin:0px auto 15px auto;
+	line-height:30px;
+	border-radius: 5px;
+	background:#aaa;
 }
 
-.ancres a {
+.anchors a {
 	color:#fff;
 }
 
-.ancres a:hover {
+.anchors a:hover {
 	color:#d05e75;
 	text-shadow: 0px 0px 1px #3ee8c2;
 }
