@@ -12,6 +12,7 @@
 
 header img{
 	border-radius:10px;
+	box-shadow: 0px 0px 15px #333;
 }
 
 header h1 {
@@ -19,7 +20,7 @@ header h1 {
 }
 
 body{
-	background: #cecece;
+	background: #c1c1c1;
 	color: #383838;
 }
 
@@ -88,13 +89,16 @@ a:hover{
 }
 
 #toolbar{
-	background: #161616;
+	font-family: "Agency FB";
+	font-size:20px;
+	background: #cecece;
+	border:1px solid #c1c1c1;
 	position: fixed;
 	top: 0px;
 	right: 0px;
 	padding: 5px 10px;
-	border-radius: 5px;
-	box-shadow: 5px #000;
+	border-bottom-left-radius: 4px;
+	box-shadow: 0px 0px 15px #666;
 }
 
 #wrapper{
@@ -104,6 +108,7 @@ a:hover{
 	border-radius: 5px;
 	box-shadow: 0px 0px 4px 1px #58b2e3;
 	border:1px solid #cecece;
+	background:#cecece;
 }
 
 #selector_wrapper{
