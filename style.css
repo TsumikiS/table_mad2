@@ -127,17 +127,14 @@ a:hover{
 }
 
 .anchors{
-	max-width: 450px;
+	width: 90%;
 	text-align: center;
-	text-shadow: 1px 1px 1px #000;
 	margin:0px auto 15px auto;
-	line-height:30px;
-	border-radius: 5px;
-	background:#aaa;
 }
 
 .anchors a {
-	color:#fff;
+	color:#383838;
+	font-size:1.2em;
 }
 
 .anchors a:hover {
