@@ -127,7 +127,7 @@ a:hover{
 }
 
 .anchors{
-	width: 80%;
+	max-width: 450px;
 	text-align: center;
 	text-shadow: 1px 1px 1px #000;
 	margin:0px auto 15px auto;
