@@ -1,3 +1,5 @@
+/**** Fonts ****/
+
 @font-face {
 	font-family: Copperplate Gothic Light;
 	src: url("https://dl.dropboxusercontent.com/u/211438478/CopperplateGothicLight.ttf");
@@ -10,75 +12,6 @@
 	src: url("https://dl.dropboxusercontent.com/u/211438478/AgencyFB.ttf");
 }
 
-header img{
-	border-radius:10px;
-	box-shadow: 0px 0px 15px #333;
-}
-
-header h1 {
-	font-family:Copperplate Gothic Light;	
-}
-
-body{
-	background: #c1c1c1;
-	color: #383838;
-}
-
-#update {
-	font-family: "Agency FB";
-	float:right;
-	margin:5px;
-	font-size:15px;
-	line-height:15px;
-}
-
-table.options {
-	margin-top:10px;
-}
-
-.options input {
-	margin:0px 2px 0px 2px;
-}
-
-ul{
-	padding-left: 0;
-	margin-top: 0;
-}
-
-ul span {
-	line-height:40px;
-	font-size:25px;
-	color:#fff;
-	font-family:Copperplate Gothic Light;	
-	text-shadow: 1px 1px 1px #000;
-}
-
-ul li{ /* affichage de chaque titre */
-	display: block;
-	width: 100%;
-	min-height: 30px;
-	background:#cecece;
-	line-height:30px;
-	opacity:0.8;
-}
-
-ul li:hover{
-	opacity:1;
-}
-
-fieldset{
-	height: 100px;
-	display: inline-block;
-	text-align: left;
-	vertical-align: top;
-	border-radius:3px;
-}
-
-form{
-	margin-left: auto;
-	padding: 10px 5px;
-}
-
 a{
 	color: #383838;
 	text-decoration: none;
@@ -88,11 +21,49 @@ a:hover{
 	text-decoration: none;
 }
 
+
+/**** Header ****/
+
+header img{
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px #333;
+}
+
+header h1 {
+	font-family: Copperplate Gothic Light;	
+}
+
+
+/**** Layout ****/
+
+body{
+	background: #c1c1c1;
+	color: #383838;
+}
+
+#wrapper{
+	display: block;
+	width: 75%;
+	margin: 30px auto 30px auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px 1px #58b2e3;
+	border: 1px solid #cecece;
+	background: #cecece;
+}
+
+#selector_wrapper{
+	width: 80%;
+	margin: 30px auto 10px auto;
+}
+
+
+/**** Toolbar Top | Bottom ****/
+
 #toolbar{
 	font-family: "Agency FB";
-	font-size:20px;
+	font-size: 20px;
 	background: #cecece;
-	border:1px solid #c1c1c1;
+	border: 1px solid #c1c1c1;
 	position: fixed;
 	top: 15px;
 	right: 0px;
@@ -102,42 +73,94 @@ a:hover{
 	box-shadow: 0px 0px 2px 1px #666;
 }
 
-#wrapper{
-	display: block;
-	width: 75%;
-	margin: 30px auto 30px auto;
-	border-radius: 5px;
-	box-shadow: 0px 0px 4px 1px #58b2e3;
-	border:1px solid #cecece;
-	background:#cecece;
+
+/**** Update Line ****/
+
+#update {
+	font-family: "Agency FB";
+	float: right;
+	margin: 5px;
+	font-size: 15px;
+	line-height: 15px;
 }
 
-#selector_wrapper{
-	width: 80%;
-	margin: 30px auto 10px auto;
+
+/**** Form MAD ****/
+
+form{
+	margin-left: auto;
+	padding: 10px 5px;
 }
 
-#formList{
-	width: 80%;
-	margin:0px auto 10px auto;
-	text-align: center;
-	background: #aaa;
-	border-radius: 5px;
-	border:1px solid #aaa;
+fieldset{
+	height: 100px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	border-radius: 3px;
 }
+
+table.options {
+	margin-top: 10px;
+}
+
+.options input {
+	margin: 0px 2px 0px 2px;
+}
+
+
+/**** Anchors ****/
 
 .anchors{
 	width: 90%;
 	text-align: center;
-	margin:0px auto 15px auto;
+	margin: 0px auto 15px auto;
 }
 
 .anchors a {
-	color:#383838;
-	font-size:1.2em;
+	color: #383838;
+	font-size: 1.2em;
 }
 
 .anchors a:hover {
-	color:#d05e75;
+	color: #d05e75;
 	text-shadow: 0px 0px 1px #3ee8c2;
+}
+
+
+/**** List ****/
+
+#formList{
+	width: 80%;
+	margin: 0px auto 10px auto;
+	text-align: center;
+	background: #aaa;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+}
+
+ul{
+	padding-left: 0;
+	margin-top: 0;
+}
+
+ul span { /* anchors in the list */
+	line-height: 40px;
+	font-size: 25px;
+	color: #fff;
+	font-family: Copperplate Gothic Light;	
+	text-shadow: 1px 1px 1px #000;
+}
+
+ul li{ /* each title of the list */
+	display: block;
+	width: 100%;
+	min-height: 30px;
+	background: #cecece;
+	line-height: 30px;
+	opacity: 0.8;
+}
+
+ul li:hover{
+	opacity: 1;
 }
